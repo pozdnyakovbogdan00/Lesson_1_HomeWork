@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="A2BAUQ2tUCkc_XB1TrT9" name="Страница 1">
-        <mxGraphModel dx="590" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="980" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -19,7 +19,7 @@
                 <mxCell id="13" value="" style="edgeStyle=none;html=1;" parent="1" source="10" target="12" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="30" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="31">
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="10" target="31" edge="1">
                     <mxGeometry relative="1" as="geometry">
                         <mxPoint x="340" y="723" as="targetPoint"/>
                         <Array as="points">
@@ -71,14 +71,20 @@
                 <mxCell id="20" value="&lt;span&gt;MaxNumber = Number_I&lt;/span&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="260" y="540" width="160" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="Console.WriteLine(&quot;Max number is &quot; + MaxNumber);Console.WriteLine(&quot;Max number is &quot; + MaxNumber)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="31" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Console.WriteLine(&quot;Max number is &quot; + MaxNumber);Console.WriteLine(&quot;Max number is &quot; + MaxNumber)" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
                     <mxGeometry x="105" y="720" width="470" height="120" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="33" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="340" y="520" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                <mxCell id="34" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="535" y="450" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="END" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="279" y="880" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
